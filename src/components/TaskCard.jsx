@@ -4,7 +4,7 @@ import { useContext } from "react";
 
 
 
-function TaskCard({task }) {
+function TaskCard({ task }) {
 
   const {deleteTask} = useContext(TaskContext)
   
